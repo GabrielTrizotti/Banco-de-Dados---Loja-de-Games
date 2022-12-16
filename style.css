@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/*Estilização do corpo (Exemplo: Fundo da página)*/
+html, body {
+  background: url(/public/img/gifdefundo.gif) no-repeat center;
+  height: 740px;
+  background-size: 255%;
+  font-family: Arial;
+}
+
+/*Estilização do texto no botão abaixo da logo do site*/
+p1 {
+  font-family: arial;
+  font-weight: bold;
+}
+
+/*Estilização do título da página, localizado acima do formulário*/
+h1 {
+  text-align: center;
+  color: white;
+}
+
+/*Configuração da imagem apresentada no topo do site*/ 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;  
+}
+
+/**/
+button {
+  background-color: black;
+  position: relative;
+  transition-duration: 0.5s;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  padding: 6px 16px;
+  border: 0px solid transparent;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  animation-duration: 1s;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.link-record-sell:link, .link-record-sell:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.link-record-sell:hover, .link-record-sell:active {
+   background-image: url(public/img/omelhorgifdetodosostempos.gif);
+  color: white;
+  transition-duration: 0.6s;
+}
+
+table {
+  min-width: 300px;
+  border: collapse;
+  background-color: black;
+  padding: 10px;
+  box-shadow: 0 0px 7px 0 rgba(0,0,0,0.2), 0 2px 15px 0 rgba(0,0,0,0.19);
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: -25px;
+}
+
+td{
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  color: white;
+}
+
+tr:hover {
+  background-color: #3b3a3a  ;
+  transition-duration: 0.6s;
+}
+
+.input-form {
+  position: relative;
+  transition-duration: 0.5s;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 0px 7px 0 rgba(0,0,0,0.2), 0 2px 15px 0 rgba(0,0,0,0.19);/*box-shadow não esta mudando nada, tem algo que eu não vi?*/
+  background-color: white;
+  padding: 6px 16px;
+  border: 0px solid transparent;
+  border-radius: 15px;
+}
+
+.input-form:hover {
+  animation-duration: 1s;
+  transform: scale(1.1);
+}
+
+.button-sub-reset { 
+  position: relative;
+  transition-duration: 0.5s;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 0px 7px 0 rgba(0,0,0,0.2), 0 2px 15px 0 rgba(0,0,0,0.19);
+  padding: 6px 16px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  margin-right: 3px;
+
+}
+    
+.button-sub-reset:hover {
+  background-image: url(public/img/omelhorgifdetodosostempos.gif);
+  color: white;
+  animation-duration: 0.5s;
+}
